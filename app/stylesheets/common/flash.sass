@@ -1,0 +1,26 @@
+
+@import 960/grid
+@import colors
+
+#messages
+  display: none
+  
+  .flash
+    background-color: $body_bg
+    border-bottom: 1px solid $header_border
+    color: $text
+    line-height: 2em
+    font-size: 1.4em
+    text-align: center
+    width: 100%
+    
+    &.alert
+      background-color: $error_bg
+      border-bottom: 1px solid $error_border
+      color: $error_text
+    
+    &.notice
+      background-color: $notice_bg
+      border-bottom: 1px solid $notice_border
+      color: $notice_text
+  

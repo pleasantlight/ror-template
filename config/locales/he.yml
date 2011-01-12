@@ -1,0 +1,283 @@
+he:
+  common:
+    title_prefix:                     "ריילס משופצר"
+    title_separator:                  " | "
+    or:                               "או"
+    header_link:
+        home:                         "בית"
+        about:                        "אודות"
+        contact:                      "יצירת קשר"
+        users:                        "משתמשים"
+        profile:                      "פרופיל"
+        sign_up:                      "הרשמה"
+        sign_in:                      "כניסה"
+        sign_out:                     "יציאה"
+        english:                      "אנגלית"
+        french:                       "Français"
+        hebrew:                       "עברית"
+    footer_copyright_message:         "כל הזכויות שמורות 2011"
+    footer_copyright_link:            "PleasantLight Ltd"
+    error_message_heading:            "סליחה, תקלה!"
+
+
+
+  contacts:
+    new:
+      title:                          "יצירת קשר"
+      heading:                        "טופס יצירת קשר לדוגמה"
+      email_explanation:              "זהו טופס יצירת קשר פעיל לחלוטין, אולם הודעות הדואל בכתובת אליה ישלחו ההודעות לא יקראו - למטרות הדגמה בלבד"
+      contact_us_explanation:         "אם יש לכם הצעות או משובים, אנא
+                                       <a href='http://www.pleasantlight.com/contact/'>
+                                       צרו עמנו קשר ישירות
+                                       </a>
+                                        באמצעות האתר שלנו ולא דרך טופס זה."
+                                        
+    flash:
+      message_sent:                   "ההודעה נשלחה"
+      invalid_form_warning:           "ישנה בעיה המונעת את שליחת ההודעה"
+
+
+
+  pages:
+    home:
+      title:                          "בית"
+    about:
+      title:                          "אודות"
+
+
+
+  notifier:
+    contact_notification:
+      heading:                        "יש לך הודעה חדשה"
+      from_label:                     "מאת :"
+      subject_label:                  "נושא :"
+      body_label:                     "תוכן :"
+
+
+
+  users:
+    flash:
+      user_updated:                   "משתמש %{email} עודכן."
+      user_deleted:                   "משתמש %{email} נמחק."
+      user_created:                   "משתמש %{email} נוצר."
+    index:
+      title:                          "ניהול משתמשים"
+      heading:                        "כל המשתמשים"
+      create_user_link:               "יצירת משתמש חדש"
+      user_list:
+        email_heading:                "דואל"
+        role_heading:                 "תפקידים"
+    edit:
+      title:                          "עריכת משתמש"
+      heading:                        "עורך את %{email}"
+      delete_user_link:               "מחק משתמש"
+      all_users_link:                 "הצג את כל המשתמשים"
+      delete_user_confirm_popup:      "האם למחוק את המשתמש? לחץ על כפתור 'אישור' להמשך."
+      password_hint:                  "(השאר שדה זה רק אם אינך ריצה לשנות אותה)"
+    new:
+      title:                          "משתמש חדש"
+      heading:                        "יצירת משתמש חדש"
+      cancel_link:                    "ביטול"
+    show:
+      title:                          "הצג משתמש"
+      heading:                        "מציג %{email}"
+      edit_user_link:                 "עריכת משתמש זה"
+      all_users_link:                 "הצג את כל המשתמשים"
+      user_detail:
+        email_heading:                "דואל"
+        role_heading:                 "תפקידים"
+        sign_in_count_heading:        "מספר כניסות"
+        current_sign_in_at_heading:   "כניסה נוכחית ב- "
+        last_sign_in_at_heading:      "כניסה קודמת ב- "
+        current_sign_in_ip_heading:   "כתובת IP נוכחית"
+        last_sign_in_ip_heading:      "כתובת IP קודמת"
+        failed_attempts_heading:      "נסיונות שנכשלו"
+        created_at_heading:           "יצירה"
+        updated_at_heading:           "עידכון"
+        locked_at_heading:            "נעילה"
+    _user:
+      edit_link:                      "עריכה"
+      delete_link:                    "מחיקה"
+      delete_user_confirm_popup:  "למחוק את המשתמש? לחץ על 'אישור' כדי להמשיך."
+
+
+
+  sessions:
+    new:
+      title: "כניסה"
+  registrations:
+    new:
+      title: "הרשמה"
+    edit:
+      title: "עריכת הפרופיל שלך"
+  passwords:
+    new:
+      title: "שכחת את הסיסמא?"
+    edit:
+      title: "שינוי סיסמא"
+  unlocks:
+    new:
+      title: "שליחה מחדש של הוראות פתיחת חשבון נעול"
+
+
+
+  devise:
+    confirmations:
+      new:
+        heading: "שליחה מחדש של הוראות לאישור החשבון"
+    mailer:
+      confirmation_instructions:
+        welcome_message: "שלום %{email}!"
+        confirm_link_explanation: "נא להקיש על הקישור הבא על מנת לאשר את חשבונך:"
+        confirm_link: "אישור החשבון"
+      reset_password_instructions:
+        welcome_message: "הי %{email}!"
+        confirm_link_explanation: "ביקשת לשנות את סיסמתך. ניתן לעשות זאת באמצעות פתיחת הקישור הבא:"
+        confirm_link: "שינוי סיסמא"
+        ignore_mail_explanation: "אם לא ביקשת לשנות את סיסמתך, אנא התעלמ/י מהודעה זו."
+        change_explanation: "סיסמתך לא תשתנה עד להפעלת הקישור לעיל ויצירת סיסמא חדשה."
+      unlock_instructions:
+        welcome_message: "הי %{email}!"
+        lock_explanation: "חשבונך ננעל בעקבות מספר רב של נסיונות כניסה כושלים."
+        resend_link_explanation: "בכדי לבטל את הנעילה, יש לפתוח את הקישור הבא:"
+        resend_link: "ביטול נעילת החשבון"
+    passwords:
+      new:
+        heading: "שכחת את סיסמתך?"
+      edit:
+        heading: "שינוי סיסמא"
+    registrations:
+      new:
+        heading: "הרשמה"
+      edit:
+        heading: "עריכת פרופיל"
+        cancel_account_heading: "ביטול חשבון"
+        cancel_account_description: "לא מרוצה מהשירות?"
+        cancel_account_link: "ביטול חשבון"
+        cancel_account_confirm_popup: "לבטל את החשבון? לחץ על 'אישור' כדי להמשיך."
+        password_hint: "(השאר שדה זה ריק אם אינך רוצה לשנות אותה)"
+    unlocks:
+      new:
+        heading: "שליחה מחדש של הוראות לביטול נעילת החשבון"
+    sessions:
+      new:
+        heading: "כניסה"
+    shared:
+      _links:
+        sign_in: "כניסה"
+        sign_up: "הרשמה"
+        forgot_password: "שכחת את הסיסמא?"
+        resend_confirm: "לא קיבלת את ההוראות לאישור החשבון?"
+        unlock: "לא קיבלת את ההוראות לביטול נעילת החשבון?"
+
+
+
+  formtastic:
+    labels:
+      user:
+        email: "דואל"
+        password: "סיסמא"
+        password_confirmation: "אישור סיסמא"
+        current_password: "סיסמא נוכחית"
+        remember_me: "זכור אותי"
+        roles: "תפקידים"
+        locked_at: "נעול"
+      contact:
+        email: "דואל"
+        subject: "נושא"
+        body: "תוכן"
+    hints:
+      user:
+        edit:
+          current_password: "(אנו זקוקים לסיסמא הנוכחית שלך כדי לאשר את השינויים)"
+    actions:
+      sign_in: "כניסה"
+      sign_up: "הרשמה"
+      reset_pass: "איפוס סיסמא"
+      resend_confirm: "שלח"
+      edit_user: "עדכון פרופיל"
+      change_password: "שינוי סיסמא"
+      resend_unlock: "שלח"
+      send_message: "שליחת הודעה"
+      create_this_user: "יצירת משתמש זה"
+      update_this_user: "עדכון משתמש זה"
+
+  activerecord:
+    errors:
+      template:
+        header:
+          one:    "שגיאה אחת מנעה את שמירת ה%{model}."
+          other:  "%{count} שגיאות מנעו את שמירת ה%{model}."
+        body: "בשדות הבאים נמצאו בעיות:"
+
+      messages:
+        inclusion: "השדה %{attribute} אינו כלול ברשימה"
+        exclusion: "השדה %{attribute} שמור"
+        invalid: "השדה %{attribute} אינו תקין"
+        confirmation: "ה%{attribute} אינה תואמת לאימות"
+        accepted: "השדה %{attribute} חייב להיות מאושר"
+        empty: "השדה %{attribute} אינו יכול להיות ריק"
+        blank: "השדה %{attribute} אינו יכול להיות ריק"
+        too_long: "השדה %{attribute} ארוך מדי (לכל היותר %{count} תוים)"
+        too_short: "השדה %{attribute} קצר מדי (לפחות %{count} תוים)"
+        wrong_length: "השדה %{attribute} צריך להיות באורך %{count} תוים בדיוק"
+        taken: "השדה %{attribute} משויך כבר לחשבון אחר"
+        not_a_number: "השדה %{attribute} איננו מספר"
+        not_an_integer: "השדה %{attribute} חייב להיות מספר שלם"
+        greater_than: "השדה %{attribute} חייב להיות גדול מ- %{count}"
+        greater_than_or_equal_to: "השדה %{attribute} חייב להיות גדול יותר או שווה ל- %{count}"
+        equal_to: "השדה %{attribute} חייב להיות שווה ל- %{count}"
+        less_than: "השדה %{attribute} חייב להיות קטן מ- %{count}"
+        less_than_or_equal_to: "השדה %{attribute} חייב להיות קון או שווה ל- %{count}"
+        odd: "השדה %{attribute} חייב להיות אי-זוגי"
+        even: "השדה %{attribute} חייב להיות זוגי"
+        record_invalid: "האימות נכשל: %{errors}"
+        <<: *errors_messages
+
+      full_messages:
+        format: "%{attribute}%{message}"
+
+    attributes:
+      user:
+        email: "דואל"
+        password: "סיסמא"
+        password_confirmation: "אישור סיסמא"
+        remember_me: "זכור אותי"
+      contact:
+        subject: "נושא"
+        body: "תוכן"
+
+  support:
+    array:
+      two_words_connector: " ו"
+
+  activemodel:
+    models:
+      user: "משתמש"
+      contact: "יצירת קשר"
+
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              taken: "כתובת הדואל משויכת לחשבון קיים"
+              blank: "אין להשאיר שדה זה ריק"
+              invalid: "שדה זה אינו חוקי"
+            password:
+              confirmation: "הסיסמא אינה תואמת לאישור הסיסמא"
+              blank: "אין להשאיר שדה זה ריק"
+            current_password:
+              blank: "אין להשאיר שדה זה ריק"
+              invalid: ":שדה זה אינו חוקי"
+        contact:
+          attributes:
+            email:
+              blank: "אין להשאיר שדה זה ריק"
+              invalid: "שדה זה אינו חוקי"
+            subject:
+              blank: "אין להשאיר שדה זה ריק"
+              invalid: "שדה זה אינו חוקי"
+            body:
+              blank: "אין להשאיר שדה זה ריק"
+              invalid: "שדה זה אינו חוקי"

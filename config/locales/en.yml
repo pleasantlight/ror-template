@@ -1,0 +1,277 @@
+en:
+  common:
+    title_prefix:                     "RoR Template"
+    title_separator:                  " | "
+    or:                               "or"
+    header_link:
+        home:                         "Home"
+        about:                        "About"
+        contact:                      "Contact"
+        users:                        "Users"
+        profile:                      "Profile"
+        sign_up:                      "Sign Up"
+        sign_in:                      "Sign In"
+        sign_out:                     "Sign Out"
+        english:                      "English"
+        french:                       "Français"
+        hebrew:                       "עברית"
+    footer_copyright_message:         "Copyright 2011"
+    footer_copyright_link:            "PleasantLight Ltd"
+    error_message_heading:            "Sorry, there was a problem!"
+    
+    
+    
+  contacts:
+    new:
+      title:                          "Contact Us"
+      heading:                        "Example Contact Form"
+      email_explanation:              "While this is a fully-functioning contact form, emails aren't set up to be read by anyone for the purposes of this demo."
+      contact_us_explanation:         "If you have any suggestions or feedback, please <a href='http://www.pleasantlight.com/contact/'>contact us directly</a> via our site rather than using this form."
+    flash:
+      message_sent:                   "Your message has been sent."
+      invalid_form_warning:           "There was a problem sending your message."
+      
+      
+    
+  pages:
+    home:
+      title:                          "Home"
+    about:
+      title:                          "About"
+    
+    
+  
+  notifier:  
+    contact_notification:
+      heading:                        "You have received a new message."
+      from_label:                     "From :"
+      subject_label:                  "Subject :"
+      body_label:                     "Body :"
+      
+      
+    
+  users:
+    flash:
+      user_updated:                   "User %{email} has been updated."
+      user_deleted:                   "User %{email} has been deleted."
+      user_created:                   "User %{email} has been created."
+    index:
+      title:                          "Manage Users"
+      heading:                        "All Users"
+      create_user_link:               "Create a new user"
+      user_list:
+        email_heading:                "Email"
+        role_heading:                 "Roles"
+    edit:
+      title:                          "Edit User"
+      heading:                        "Editing %{email}"
+      delete_user_link:               "Delete this user"
+      all_users_link:                 "view all users"
+      delete_user_confirm_popup:      "Are you sure? Click the 'OK' button to delete this user."
+      password_hint:                  "(leave this blank if you don't want to change it)"
+    new:
+      title:                          "New User"
+      heading:                        "Create a new user"
+      cancel_link:                    "cancel"
+    show:
+      title:                          "View User"
+      heading:                        "Viewing %{email}"
+      edit_user_link:                 "Edit this user"
+      all_users_link:                 "view all users"
+      user_detail:
+        email_heading:                "Email"
+        role_heading:                 "Roles"
+        sign_in_count_heading:        "Sign-in count"
+        current_sign_in_at_heading:   "Current sign-in at"
+        last_sign_in_at_heading:      "Last sign-in at"
+        current_sign_in_ip_heading:   "Current IP address"
+        last_sign_in_ip_heading:      "Last IP address"
+        failed_attempts_heading:      "Failed attempts"
+        created_at_heading:           "Created"
+        updated_at_heading:           "Updated"
+        locked_at_heading:            "Locked"
+    _user:
+      edit_link:                      "edit"
+      delete_link:                    "delete"
+      delete_user_confirm_popup:  "Are you sure? Click the 'OK' button to delete this user."
+      
+      
+  
+  sessions:
+    new:
+      title: "Sign in"    
+  registrations:
+    new:
+      title: "Sign up"
+    edit:
+      title: "Edit your profile"
+  passwords:
+    new:
+      title: "Forgot your password?"
+    edit:
+      title: "Change your password"
+  unlocks:
+    new:
+      title: "Resend unlock instructions"
+      
+
+
+  devise:
+    confirmations:
+      new:
+        heading: "Resend confirmation instructions"
+    mailer:
+      confirmation_instructions:
+        welcome_message: "Hi %{email}!"
+        confirm_link_explanation: "Please click the link below to confirm your account:"
+        confirm_link: "Confirm your account"
+      reset_password_instructions:
+        welcome_message: "Hi %{email}!"
+        confirm_link_explanation: "Someone has requested a link to change your password. You you can do this through the link below:"
+        confirm_link: "Change your password"
+        ignore_mail_explanation: "If you didn't request a password reset, please ignore this email."
+        change_explanation: "Your password won't change until you click the link above and create a new one."
+      unlock_instructions:
+        welcome_message: "Hi %{email}!"
+        lock_explanation: "Your account has been locked due to an excessive amount of unsuccessful sign in attempts."
+        resend_link_explanation: "Click the link below to unlock your account:"
+        resend_link: "Unlock your account"
+    passwords:
+      new:
+        heading: "Forgot your password?"
+      edit:
+        heading: "Change your password"
+    registrations:
+      new:
+        heading: "Sign up"
+      edit:
+        heading: "Edit your profile"
+        cancel_account_heading: "Cancel your account"
+        cancel_account_description: "Unhappy with our service?"
+        cancel_account_link: "Cancel your account"
+        cancel_account_confirm_popup: "Are you sure? Click the 'OK' button to cancel your account."
+        password_hint: "(leave this blank if you don't want to change it)"
+    unlocks:
+      new:
+        heading: "Resend unlock instructions"
+    sessions:
+      new:
+        heading: "Sign in"
+    shared:
+      _links:
+        sign_in: "Sign in"
+        sign_up: "Sign up"
+        forgot_password: "Forgot your password?"
+        resend_confirm: "Didn't receive confirmation instructions?"
+        unlock: "Didn't receive unlock instructions?"
+        
+        
+
+  formtastic:
+    labels:
+      user:
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Confirm password"
+        current_password: "Current password"
+        remember_me: "Remember me"
+        roles: "Roles"
+        locked_at: "Locked"
+      contact:
+        email: "Email"
+        subject: "Subject"
+        body: "Body"
+    hints:
+      user:
+        edit:
+          current_password: "(we need your current password to confirm your changes)"
+    actions:
+      sign_in: "Sign in"
+      sign_up: "Sign up"
+      reset_pass: "Reset my password"
+      resend_confirm: "Resend confirmation"
+      edit_user: "Update your profile"
+      change_password: "Change password"
+      resend_unlock: "Resend instructions"
+      send_message: "Send message"
+      create_this_user: "Create this user"
+      update_this_user: "Update this user"
+
+  activerecord:
+    errors:
+      template:
+        header:
+          one:    "1 error prohibited this %{model} from being saved"
+          other:  "%{count} errors prohibited this %{model} from being saved"
+        body: "There were problems with the following fields:"
+
+      messages:
+        taken: "#{attribute} has already been taken"
+        record_invalid: "Validation failed: %{errors}"
+        inclusion: "%{attribute} is not included in the list"
+        exclusion: "%{attribute} is reserved"
+        invalid: "%{attribute} is invalid"
+        confirmation: "%{attribute} doesn't match confirmation"
+        accepted: "%{attribute} must be accepted"
+        empty: "%{attribute} can't be empty"
+        blank: "%{attribute} can't be blank"
+        too_long: "%{attribute} is too long (maximum is %{count} characters)"
+        too_short: "%{attribute} is too short (minimum is %{count} characters)"
+        wrong_length: "%{attribute} is the wrong length (should be %{count} characters)"
+        taken: "%{attribute} has already been taken"
+        not_a_number: "%{attribute} is not a number"
+        not_an_integer: "%{attribute} must be an integer"
+        greater_than: "%{attribute} must be greater than %{count}"
+        greater_than_or_equal_to: "%{attribute} must be greater than or equal to %{count}"
+        equal_to: "%{attribute} must be equal to %{count}"
+        less_than: "%{attribute} must be less than %{count}"
+        less_than_or_equal_to: "%{attribute} must be less than or equal to %{count}"
+        odd: "%{attribute} must be odd"
+        even: "%{attribute} must be even"
+        record_invalid: "Validation failed: %{errors}"
+        <<: *errors_messages
+
+      full_messages:
+        format: "%{attribute}%{message}"
+
+    attributes:
+      user:
+        email: "email"
+        password: "password"
+        password_confirmation: "password confirmation"
+        remember_me: "remember me"
+      contact:
+        subject: "subject"
+        body: "body"
+
+  activemodel:
+    models:
+      user: "user"
+      contact: "contact"
+
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              taken: "email address has already been taken"
+              blank: "can't be blank"
+              invalid: "is invalidי"
+            password:
+              confirmation: "password doesn't match confirmation"
+              blank: "can't be blank"
+            current_password:
+              blank: "can't be blank"
+              invalid: "is invalid"
+        contact:
+          attributes:
+            email:
+              blank: "can't be blank"
+              invalid: "is invalid"
+            subject:
+              blank: "can't be blank"
+              invalid: "is invalid"
+            body:
+              blank: "can't be blank"
+              invalid: "is invalid"
+        

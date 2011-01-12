@@ -1,0 +1,24 @@
+!!!
+%html{:style => is_rtl_locale ? 'direction: rtl' : 'direction: ltr'}
+  %head
+    %meta{"http-equiv"=>"Content-type", :content=>"text/html;charset=utf-8"}/
+    %title= title
+    = render 'layouts/stylesheets'
+    = render 'layouts/javascript'
+    = csrf_meta_tag
+
+  %body{:id => body_id}>
+
+    - if flash.length > 0
+      #messages
+        - flash.each do |key, value|
+          .flash{:class => "#{key}"}= value
+
+    = render 'layouts/header'
+
+    .content
+
+      = yield
+
+      = render 'layouts/footer'
+

@@ -1,0 +1,9 @@
+
+- if Rails.env.development?
+  = stylesheet_link_tag 'screen'
+  - if is_rtl_locale
+    = stylesheet_link_tag 'common/rtl'
+- else
+  = stylesheet_link_tag '/assets/common'
+  - if is_rtl_locale
+    = stylesheet_link_tag '/assets/rtl'

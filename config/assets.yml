@@ -1,0 +1,17 @@
+embed_assets: off
+
+javascripts:
+  common:
+    - public/javascripts/jquery.js
+    - public/javascripts/jquery-ui.js
+    - public/javascripts/ui.selectmenu.js
+    - public/javascripts/rails.js
+    - public/javascripts/application.js
+
+stylesheets:
+  common:
+    - public/stylesheets/screen.css
+    - public/stylesheets/3rd_party/jquery-ui/*
+
+  rtl:
+    - public/stylesheets/common/rtl.css

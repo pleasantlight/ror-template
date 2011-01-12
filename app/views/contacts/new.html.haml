@@ -1,0 +1,19 @@
+
+.form
+  %h2= t('contacts.new.heading')
+  
+  %p= t('contacts.new.email_explanation')
+  
+  %p= raw t('contacts.new.contact_us_explanation')
+  
+  = semantic_form_for @contact, :url => contacts_path  do |f|
+    
+    = f.inputs do
+      = f.input :email,   :as => :string 
+      = f.input :subject, :as => :string 
+      = f.input :body,    :as => :text
+      
+    = f.buttons do    
+      = f.commit_button :send_message
+
+.clear

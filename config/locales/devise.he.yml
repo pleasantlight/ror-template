@@ -1,0 +1,44 @@
+he:
+  errors:
+    messages:
+      not_found: "לא נמצא"
+      already_confirmed: "אושר כבר"
+      not_locked: "לא היה נעול"
+
+  devise:
+    failure:
+      unauthenticated: "יש להירשם או להכנס לפני שניתן להמשיך"
+      unconfirmed: "יש לאשר את החשבון לפני שניתן להמשיך"
+      locked: "חשבונך ננעל - אנא בדוק את תיבת הדואל שלך לקבלת הוראות"
+      invalid: "בעיה בשם או בסיסמא"
+      invalid_token: "אסימון אישרור לא תקין"
+      timeout: "יצאת מהשירות עקב חוסר פעילות - אנא הכנס שוב כדי להמשיך"
+      inactive: "חשבונך עדיין לא הופעל"
+    sessions:
+      user:
+        signed_in: "נכנסת בהצלחה"
+        signed_out: "יצאת בהצלחה - להתראות בקרוב!"
+      new:
+        login_explanation: "כדי להכנס, יש להשתמש ב- admin@pleasantlight.com/123456 או ב- user@pleasantlight.com/123456. נא לא למחוק את משתמשי הבדיקה."
+        rebuild_explanation: "בסיס הנתונים יבנה באופן אוטומטי מדי שעה"
+    passwords:
+      send_instructions: "הודעת דואל ובה הוראות לאיפוס הסיסמא תשלח לחשבונך בעוד מספר דקות"
+      updated: "סיסמתך שונתה בהצלחה - נכנסת לחשבון"
+    confirmations:
+      send_instructions: "הודעת דואל ובה הוראות לאישור החשבון תשלח אליך בעוד מספר דקות"
+      confirmed: "החשבון אושר בהצלחה. נכנסת לחשבון"
+    registrations:
+      signed_up: "תודה שנרשמת! הודעת אישור נשלחה לכתובת הדואל שלך."
+      updated: "חשבונך עודכן."
+      destroyed: "חשבונך בוטל. אנו מקווים לפגוש אותך שוב בקרוב!"
+    unlocks:
+      send_instructions: "בעוד מספר דקות תשלח אליך הודעת דואל ובה הוראות כיצד לפתוח את חסימת החשבון."
+      unlocked: "חסימת החשבון הוסרה בהצלחה. נכנסת לחשבון."
+    mailer:
+      confirmation_instructions:
+        subject: "נא לאשר את כתובת הדואל שלך"
+      reset_password_instructions:
+        subject: "איך לאפס את הסיסמא"
+      unlock_instructions:
+        subject: "איך פותחים חשבון שנחסם"
+

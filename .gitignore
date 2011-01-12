@@ -1,0 +1,12 @@
+.bundle
+.rake_tasks~
+.sass-cache/*
+db/*.sqlite3*
+log/*.log
+scratch_directory/*
+tmp/**/*
+tmp/*.json
+.idea/*
+.redcar/*
+LICENSE.txt
+

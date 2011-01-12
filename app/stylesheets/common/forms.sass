@@ -1,0 +1,55 @@
+
+@import 960/grid
+@import colors
+
+.form
+    +grid-move-base
+    +grid-push(2, $ninesixty-columns)
+    +grid(8, $ninesixty-columns)
+    
+    .formtastic fieldset ol li,
+    .formtastic fieldset ol li fieldset
+        // Over-ride formtastic overflow:auto, which is ugly in firefox.
+        overflow: hidden
+        
+        // Float inline errors to the right of inputs.
+        p.inline-errors
+            display: inline
+            padding: 0 0.5em
+            margin: 0 0 0 0.5em
+            font-size: 0.9em
+            background-color: $error_bg
+            color: $error_text
+            border: 1px solid $error_border
+            
+        p.inline-hints
+            display: block
+            float: none
+            margin-left: 27%
+
+        &.error input
+            float: left
+        
+        // Make text inputs match password input width.
+        &.string input,
+        &.numeric input
+            max-width: 13em
+        
+        &.text textarea
+            max-width: 26em
+            height: 10em
+          
+            
+    #error_explanation
+        background-color: $error_bg
+        color: $error_text
+        border: 1px solid $error_border
+        padding: 0.5em
+        margin: 0 auto 1em auto
+        
+        h2
+            font-size: 1.2em
+            margin: 0
+        
+        
+  

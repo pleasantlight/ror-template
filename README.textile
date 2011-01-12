@@ -1,0 +1,12 @@
+This software package is intended to be a baseline for developing web-based
+applications with Ruby on Rails and other accompanying technologies.
+The code was created by Dave Perret (Recursive Design) and slightly modified 
+by me to include such features as: 
+- Right-to-Left support. 
+- Improved locale selection.    
+- Replacing CoffeeScript support module: using Barista instead of bistro-car.
+- Added support for jQuery-UI.
+- Some other modifications I can't remember now.
+
+Thanks Dave!
+

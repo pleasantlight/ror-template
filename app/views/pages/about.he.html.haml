@@ -1,0 +1,125 @@
+#plans_container
+  %h1
+    תוכניות לעתיד
+  %p
+    אני שוקל להוסיף תמיכה
+    %a{:href => 'http://chargify.com/'} בשירות תשלומים
+    %a{:href => 'http://recurly.com/'} או
+    %a{:href => 'https://cheddargetter.com/'} כמה
+    וגם לתמיכה בהעלאת קבצים של
+    %a{:href => 'http://github.com/thoughtbot/paperclip'} Paperclip
+    \.
+    אם יש מודולים נפוצים נוספים שתרצו להוסיף, בבקשה
+    %a{:href => 'http://recursive-design.com/contact/'} כתבו אלי
+    ותגידו!
+
+#what_for_container
+  %h1
+    אז מה כל הסיפור בעצם?
+  %p
+    הייתי צריך בסיס מוצק כדי לבנות עליו את הפרויקטים שלי בריילס. כיון שהחיבור בין כל החתיכות
+    המפוזרות הללו זה לא הדבר הכי קל בעולם, החלטתי לשחרר את הדוגמה הזו בתקווה שהיא תחסוך
+    לכם קצת זמן.
+
+.clear
+
+%hr
+
+.item
+  %h2
+    תמיכה ב- CoffeeScript
+  %p
+    CoffeeScript היא שפה קטנה שמתקמפלת ל- JavaScript. חשבו עליה כמו על האח הקטן והצנוע
+    של JavaScript - אותם גנים, בערך אותו גובה, אבל חוש שונה לסגנון.
+    %a{:href => 'http://jashkenas.github.com/coffee-script/', :class => 'read_more'} קראו עוד...
+
+.item
+  %h2
+    תבניות Haml
+  %p
+    Haml הופכת את התבניות הגסות והמכוערות שלך לשווה הערך לשירת האיקו.
+  %p
+    Haml מבוססת על עקרון בסיסי אחד. שפת סימון (Markup) צריכה להיות יפהפיה.
+    %a{:href => 'http://haml-lang.com/', :class => 'read_more'} קראו עוד...
+
+.clear
+
+.item
+  %h2
+    מערכת בדיקות מקיפה מבוססת RSpec
+  %p
+    RSpec הינה תשתית של פיתוח מונחה התנהגות (Behavior Driven Development - BDD) לשפת Ruby, המבוססת על JBehave. היא כוללת תשתית דימות (mocking) עצמאית המבוססת על JMock ומשולבת אל תוך המערכת.
+    %a{:href => 'http://rspec.info/', :class => 'read_more'} קראו עוד...
+
+.item
+  %h2
+    מדידות על ידי metric_fu
+  %p
+    Metric_fu היא קבוצת מטלות Rake המאפשרת יצירת דוחות מדידה בקלות. היא משתמשת ב-
+    Saikuro, Flog, Flay, Rcov, Reek, Roodi, Churn, RailsBestPractices, Subversion, Git
+    ובפקודת stats המובנית בריילס כדי ליצור קבוצת דוחות שעוזרים במציאת בעיות אפשריות בקוד.
+    %a{:href => 'http://metric-fu.rubyforge.org/', :class => 'read_more'} קראו עוד...
+
+.clear
+
+.item
+  %h2
+    דחיסת נכסים על ידי Jammit
+  %p
+    Jammit הינה ספרית דחיסת נכסים עבור ריילס, המספקת גם דחיסה ואריזה של קבצי CSS ו- JavaScript, וגם דחיסה של YUI ותאימות לקומפיילר Closure.
+    %a{:href => 'http://documentcloud.github.com/jammit/', :class => 'read_more'} קראו עוד...
+
+.item
+  %h2
+    960GS CSS grid system
+  %p
+    960GS Grid System הינה תשתית המייצגת מאמץ להקל על עבודת הפיתוח בעזרת שימוש בגדלים נפוצים,
+    המבוססת על רשת ברוחב של 960 פיקסלים.
+    %a{:href => 'http://960.gs/', :class => 'read_more'} קראו עוד...
+
+.clear
+
+.item
+  %h2
+    טפסים על ידי Formtastic
+  %p
+    Formtastic הינו תוסף לבונה הטפסים של ריילס (Rails FormBuilder) המקל על יצירתם של טפסי HTML
+    יפהפיים, בעלי משמעויות סמנטיות, עם תחביר מגניב, ניתנים להתאמה בקלות, ונגישים באופן יוצא מן הכלל, ועל
+    שילובם באפליקציות הריילס שלכם.
+    %a{:href => 'http://github.com/justinfrench/formtastic', :class => 'read_more'} קראו עוד...
+
+.item
+  %h2
+    הכנה להרוקו (Heroku)
+  %p
+    הרוקו הינו שירות מבוסס ענן המאפשר אירוח קל ופשוט של אפליקציות מבוססות Rack ו- Ruby on Rails.
+    הרוקו היה אחד מספקי תשתיות הענן הראשונים, וכיום ישנן יותר מ- 82,000 אפליקציות המתארחות בשרתים שלו.
+    %a{:href => 'http://heroku.com/', :class => 'read_more'} קראו עוד...
+
+.clear
+
+.item
+  %h2
+    CanCan
+  %p
+    CanCan הינה ספרית הרשאות לריילס המגבילה את המשאבים אליהם רשאי משתמש מסויים לגשת. כל ההרשאות מוגדרות במקום
+    אחד (מחלקת Ability) ואינן משוכפלות במקומות שונים בקוד.
+    %a{:href => 'http://github.com/ryanb/cancan', :class => 'read_more'} קראו עוד...
+
+.item
+  %h2
+    Devise
+  %p
+    Devise הינו פתרון אימות (authentication) גמיש לריילס המבוסס על Warden. הוא:
+    %ul
+      %li
+        מבוסס על Rack;
+      %li
+        מהווה פתרון MVC שלם המבוסס על מנועי ריילס;
+      %li
+        מאפשר ליצור תפקידים שונים שנכנסים למערכת באותו הזמן;
+      %li
+        מבוסס על עקרון המודולריות: השתמשו רק במה שאתה באמת צריכים.
+    %a{:href => 'http://github.com/plataformatec/devise', :class => 'read_more'} קראו עוד...
+
+.clear

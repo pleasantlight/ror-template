@@ -1,0 +1,7 @@
+- if object.errors.any?
+  #error_explanation
+    %h2= t('common.error_message_heading')
+    %ul
+      - object.errors.full_messages.each do |msg|
+        %li= msg
+

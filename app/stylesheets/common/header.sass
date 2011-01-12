@@ -1,0 +1,55 @@
+
+@import 960/grid
+@import colors
+
+// IE won't select on <header> or <nav> - need to add a <div> container as well unfortunately.
+#menu_container 
+  border-bottom: 1px solid $header_border
+  background-color: $header_bg
+  height: auto
+  color: $header_text
+  margin-bottom: 2em
+  height: 4em
+  
+  li
+    float: left
+    margin: 0 0.5em
+    line-height: 3em
+    list-style: none
+    font-size: 1em
+    
+    &#select_locale_tab
+      float: right
+      padding-top: 0.2em
+
+      &.flow_left
+        float: left
+
+      &.flow_right
+        float: right
+
+  ul
+    width: 100%
+    overflow: hidden
+    margin: 0
+    padding: 0
+    +grid-container
+    
+  a
+    font-size: 1.1em
+    color: $header_link
+  
+    &:visited
+      color: $header_link_visited
+  
+    &:hover
+      color: $header_link_hover
+      
+body#pages_home         header li#home_tab a,
+body#pages_about        header li#about_tab a,
+body#contacts_new       header li#contact_tab a,
+body#users_index        header li#users_tab a,
+body#registrations_edit header li#profile_tab a,
+body#sessions_new       header li#sign_in_tab a,
+body#registrations_new  header li#sign_up_tab a
+  color: $text
