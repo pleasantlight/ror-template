@@ -123,7 +123,7 @@
 /* line 52, ../../../../app/stylesheets/3rd_party/jquery-ui/jquery-ui.original.scss */
 .ui-widget-content {
   border: 1px solid #666666;
-  background: black url(../images/embed/ui-bg_inset-soft_25_000000_1x100.png) 50% bottom repeat-x;
+  background: black url(/images/embed/ui-bg_inset-soft_25_000000_1x100.png) 50% bottom repeat-x;
   color: #ffffff;
 }
 
@@ -135,7 +135,7 @@
 /* line 54, ../../../../app/stylesheets/3rd_party/jquery-ui/jquery-ui.original.scss */
 .ui-widget-header {
   border: 1px solid #333333;
-  background: #333333 url(../images/embed/ui-bg_gloss-wave_25_333333_500x100.png) 50% 50% repeat-x;
+  background: #333333 url(/images/embed/ui-bg_gloss-wave_25_333333_500x100.png) 50% 50% repeat-x;
   color: #ffffff;
   font-weight: bold;
 }
@@ -150,7 +150,7 @@
 /* line 59, ../../../../app/stylesheets/3rd_party/jquery-ui/jquery-ui.original.scss */
 .ui-state-default, .ui-widget-content .ui-state-default {
   border: 1px solid #666666;
-  background: #555555 url(../images/embed/ui-bg_glass_20_555555_1x400.png) 50% 50% repeat-x;
+  background: #555555 url(/images/embed/ui-bg_glass_20_555555_1x400.png) 50% 50% repeat-x;
   font-weight: bold;
   color: #eeeeee;
   outline: none;
@@ -166,7 +166,7 @@
 /* line 61, ../../../../app/stylesheets/3rd_party/jquery-ui/jquery-ui.original.scss */
 .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus {
   border: 1px solid #59b4d4;
-  background: #0078a3 url(../images/embed/ui-bg_glass_40_0078a3_1x400.png) 50% 50% repeat-x;
+  background: #0078a3 url(/images/embed/ui-bg_glass_40_0078a3_1x400.png) 50% 50% repeat-x;
   font-weight: bold;
   color: #ffffff;
   outline: none;
@@ -182,7 +182,7 @@
 /* line 63, ../../../../app/stylesheets/3rd_party/jquery-ui/jquery-ui.original.scss */
 .ui-state-active, .ui-widget-content .ui-state-active {
   border: 1px solid #ffaf0f;
-  background: #f58400 url(../images/embed/ui-bg_inset-soft_30_f58400_1x100.png) 50% 50% repeat-x;
+  background: #f58400 url(/images/embed/ui-bg_inset-soft_30_f58400_1x100.png) 50% 50% repeat-x;
   font-weight: bold;
   color: #ffffff;
   outline: none;
@@ -200,7 +200,7 @@
 /* line 68, ../../../../app/stylesheets/3rd_party/jquery-ui/jquery-ui.original.scss */
 .ui-state-highlight, .ui-widget-content .ui-state-highlight {
   border: 1px solid #cccccc;
-  background: #eeeeee url(../images/embed/ui-bg_highlight-soft_80_eeeeee_1x100.png) 50% top repeat-x;
+  background: #eeeeee url(/images/embed/ui-bg_highlight-soft_80_eeeeee_1x100.png) 50% top repeat-x;
   color: #2e7db2;
 }
 
@@ -212,7 +212,7 @@
 /* line 70, ../../../../app/stylesheets/3rd_party/jquery-ui/jquery-ui.original.scss */
 .ui-state-error, .ui-widget-content .ui-state-error {
   border: 1px solid #ffb73d;
-  background: #ffc73d url(../images/embed/ui-bg_glass_40_ffc73d_1x400.png) 50% 50% repeat-x;
+  background: #ffc73d url(/images/embed/ui-bg_glass_40_ffc73d_1x400.png) 50% 50% repeat-x;
   color: #111111;
 }
 
@@ -252,42 +252,42 @@
 .ui-icon {
   width: 16px;
   height: 16px;
-  background-image: url(../images/embed/ui-icons_cccccc_256x240.png);
+  background-image: url(/images/embed/ui-icons_cccccc_256x240.png);
 }
 
 /* line 82, ../../../../app/stylesheets/3rd_party/jquery-ui/jquery-ui.original.scss */
 .ui-widget-content .ui-icon {
-  background-image: url(../images/embed/ui-icons_cccccc_256x240.png);
+  background-image: url(/images/embed/ui-icons_cccccc_256x240.png);
 }
 
 /* line 83, ../../../../app/stylesheets/3rd_party/jquery-ui/jquery-ui.original.scss */
 .ui-widget-header .ui-icon {
-  background-image: url(../images/embed/ui-icons_ffffff_256x240.png);
+  background-image: url(/images/embed/ui-icons_ffffff_256x240.png);
 }
 
 /* line 84, ../../../../app/stylesheets/3rd_party/jquery-ui/jquery-ui.original.scss */
 .ui-state-default .ui-icon {
-  background-image: url(../images/embed/ui-icons_cccccc_256x240.png);
+  background-image: url(/images/embed/ui-icons_cccccc_256x240.png);
 }
 
 /* line 85, ../../../../app/stylesheets/3rd_party/jquery-ui/jquery-ui.original.scss */
 .ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
-  background-image: url(../images/embed/ui-icons_ffffff_256x240.png);
+  background-image: url(/images/embed/ui-icons_ffffff_256x240.png);
 }
 
 /* line 86, ../../../../app/stylesheets/3rd_party/jquery-ui/jquery-ui.original.scss */
 .ui-state-active .ui-icon {
-  background-image: url(../images/embed/ui-icons_222222_256x240.png);
+  background-image: url(/images/embed/ui-icons_222222_256x240.png);
 }
 
 /* line 87, ../../../../app/stylesheets/3rd_party/jquery-ui/jquery-ui.original.scss */
 .ui-state-highlight .ui-icon {
-  background-image: url(../images/embed/ui-icons_4b8e0b_256x240.png);
+  background-image: url(/images/embed/ui-icons_4b8e0b_256x240.png);
 }
 
 /* line 88, ../../../../app/stylesheets/3rd_party/jquery-ui/jquery-ui.original.scss */
 .ui-state-error .ui-icon, .ui-state-error-text .ui-icon {
-  background-image: url(../images/embed/ui-icons_a83300_256x240.png);
+  background-image: url(/images/embed/ui-icons_a83300_256x240.png);
 }
 
 /* positioning */
@@ -1224,7 +1224,7 @@
 /* Overlays */
 /* line 281, ../../../../app/stylesheets/3rd_party/jquery-ui/jquery-ui.original.scss */
 .ui-widget-overlay {
-  background: #5c5c5c url(../images/embed/ui-bg_flat_50_5c5c5c_40x100.png) 50% 50% repeat-x;
+  background: #5c5c5c url(/images/embed/ui-bg_flat_50_5c5c5c_40x100.png) 50% 50% repeat-x;
   opacity: .80;
   filter: Alpha(Opacity=80);
 }
@@ -1233,14 +1233,14 @@
 .ui-widget-shadow {
   margin: -7px 0 0 -7px;
   padding: 7px;
-  background: #cccccc url(../images/embed/ui-bg_flat_30_cccccc_40x100.png) 50% 50% repeat-x;
+  background: #cccccc url(/images/embed/ui-bg_flat_30_cccccc_40x100.png) 50% 50% repeat-x;
   opacity: .60;
   filter: Alpha(Opacity=60);
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
 }
 
-                                                                                                                                                                                                                                                 /* Accordion
+                                                                                                                                                                                                                                               /* Accordion
 ----------------------------------*/
 /* line 284, ../../../../app/stylesheets/3rd_party/jquery-ui/jquery-ui.original.scss */
 .ui-accordion .ui-accordion-header {

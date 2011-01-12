@@ -11,15 +11,15 @@ a.customicons {
 
 /* line 3, ../../../app/stylesheets/common/locale_selector.scss */
 .english-us .ui-selectmenu-item-icon {
-  background: url(../images/flags/embed/english-us.32.png) 0 0 no-repeat;
+  background: url(/images/flags/embed/english-us.32.png) 0 0 no-repeat;
 }
 
 /* line 4, ../../../app/stylesheets/common/locale_selector.scss */
 .french-france .ui-selectmenu-item-icon {
-  background: url(../images/flags/embed/french-france.32.png) 0 0 no-repeat;
+  background: url(/images/flags/embed/french-france.32.png) 0 0 no-repeat;
 }
 
 /* line 5, ../../../app/stylesheets/common/locale_selector.scss */
 .hebrew-israel .ui-selectmenu-item-icon {
-  background: url(../images/flags/embed/hebrew-israel.32.png) 0 0 no-repeat;
+  background: url(/images/flags/embed/hebrew-israel.32.png) 0 0 no-repeat;
 }
