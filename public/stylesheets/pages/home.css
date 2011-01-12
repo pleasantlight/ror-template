@@ -38,7 +38,7 @@ body#pages_home #download_container a#download_button {
   overflow: hidden;
   margin: 0 auto;
   text-indent: -9999px;
-  background: transparent url("/images/download.png") top left no-repeat;
+  background: transparent url("/images/embed/download.png") top left no-repeat;
 }
 /* line 37, ../../../app/stylesheets/pages/home.sass */
 body#pages_home #feature_container {
