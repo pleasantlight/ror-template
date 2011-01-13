@@ -48,7 +48,6 @@ GEM
       main
       ruby_parser (~> 2.0.4)
       sexp_processor (~> 3.0.3)
-    closure-compiler (0.3.3)
     coffee-script (2.1.1)
       coffee-script-source
     coffee-script-source (1.0.0)
@@ -87,9 +86,6 @@ GEM
       rubyforge (>= 2.0.4)
     hpricot (0.8.2)
     i18n (0.4.1)
-    jammit (0.5.3)
-      closure-compiler (>= 0.1.0)
-      yui-compressor (>= 0.9.1)
     json_pure (1.4.6)
     mail (2.2.6.1)
       activesupport (>= 2.3.6)
@@ -177,7 +173,6 @@ GEM
       rack (>= 1.0)
       rack-test (>= 0.5.3)
     will_paginate (3.0.pre2)
-    yui-compressor (0.9.1)
 
 PLATFORMS
   ruby
@@ -197,7 +192,6 @@ DEPENDENCIES
   haml (= 3.0.18)
   hpricot (= 0.8.2)
   i18n (= 0.4.1)
-  jammit (= 0.5.3)
   metric_fu (= 1.5.1)
   rails (= 3.0.0)
   rspec (= 2.0.0.rc)

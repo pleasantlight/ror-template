@@ -19,7 +19,7 @@ group :development do
   gem 'compass',            '0.10.2'
   gem 'compass-960-plugin', '0.10.0', :require => 'ninesixty'
   gem 'faker',              '0.3.1'
-  gem 'jammit',             '0.5.3'
+#  gem 'jammit',             '0.5.3'
   gem 'metric_fu',          '1.5.1'
   gem 'rspec-rails',        '2.0.0.rc'
 end
