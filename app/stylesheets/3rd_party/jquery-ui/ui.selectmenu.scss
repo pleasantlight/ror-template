@@ -24,7 +24,8 @@
 .ui-selectmenu-menu .ui-selectmenu-group ul { margin: 0; padding: 0; }
 
 /* additions for auto-hide of down arrow */
-a.ui-selectmenu-dropdown.ui-state-hover, a.ui-selectmenu-dropdown.ui-state-active { width: 70px !important; }
+a.ui-selectmenu-dropdown, a.ui-selectmenu-dropdown { margin-right: 28px !important; }
+a.ui-selectmenu-dropdown.ui-state-hover, a.ui-selectmenu-dropdown.ui-state-active { width: 70px !important; margin-right: 0px !important; }
 span.ui-selectmenu-icon.ui-icon-triangle-1-s { display: none !important; background-position: -64px -16px; }
 span.ui-selectmenu-icon.ui-icon-triangle-1-s.ui-state-hover { display: block !important; border: none; }
 span.ui-selectmenu-icon.ui-icon-triangle-1-s.ui-state-active { display: block !important; border: none; background-position: -0px -16px; }

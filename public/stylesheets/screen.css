@@ -2661,23 +2661,29 @@ button.ui-button::-moz-focus-inner {
 
 /* additions for auto-hide of down arrow */
 /* line 27, ../../app/stylesheets/3rd_party/jquery-ui/ui.selectmenu.scss */
-a.ui-selectmenu-dropdown.ui-state-hover, a.ui-selectmenu-dropdown.ui-state-active {
-  width: 70px !important;
+a.ui-selectmenu-dropdown, a.ui-selectmenu-dropdown {
+  margin-right: 28px !important;
 }
 
 /* line 28, ../../app/stylesheets/3rd_party/jquery-ui/ui.selectmenu.scss */
+a.ui-selectmenu-dropdown.ui-state-hover, a.ui-selectmenu-dropdown.ui-state-active {
+  width: 70px !important;
+  margin-right: 0px !important;
+}
+
+/* line 29, ../../app/stylesheets/3rd_party/jquery-ui/ui.selectmenu.scss */
 span.ui-selectmenu-icon.ui-icon-triangle-1-s {
   display: none !important;
   background-position: -64px -16px;
 }
 
-/* line 29, ../../app/stylesheets/3rd_party/jquery-ui/ui.selectmenu.scss */
+/* line 30, ../../app/stylesheets/3rd_party/jquery-ui/ui.selectmenu.scss */
 span.ui-selectmenu-icon.ui-icon-triangle-1-s.ui-state-hover {
   display: block !important;
   border: none;
 }
 
-/* line 30, ../../app/stylesheets/3rd_party/jquery-ui/ui.selectmenu.scss */
+/* line 31, ../../app/stylesheets/3rd_party/jquery-ui/ui.selectmenu.scss */
 span.ui-selectmenu-icon.ui-icon-triangle-1-s.ui-state-active {
   display: block !important;
   border: none;
@@ -2685,7 +2691,7 @@ span.ui-selectmenu-icon.ui-icon-triangle-1-s.ui-state-active {
 }
 
 /* fix RTL bug */
-/* line 33, ../../app/stylesheets/3rd_party/jquery-ui/ui.selectmenu.scss */
+/* line 34, ../../app/stylesheets/3rd_party/jquery-ui/ui.selectmenu.scss */
 .ui-selectmenu-dropdown {
   direction: ltr !important;
 }
